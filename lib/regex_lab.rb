@@ -3,6 +3,8 @@ def starts_with_a_vowel?(word)
       return true 
     elsif word.match(/[b-df-hj-np-tv-z/])
       false 
+    else 
+      false 
       
     end 
 end 
