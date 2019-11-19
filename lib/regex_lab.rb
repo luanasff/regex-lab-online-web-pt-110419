@@ -20,9 +20,4 @@ if text.match(/^[A-Z]/) && text.match(/[\.]$/)
 end
 
 def valid_phone_number?(phone)
-  if phone.scan(/(\d+)-(\d+)-(\d+)-(\d+)/)
-    return true
-  else 
-    return false
-  end 
-end
+  
