@@ -12,7 +12,11 @@ text.scan(/\b[a-z]{5}\b/i)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+if text.match(/^[A-Z]/) && text.match(/[\.]$/)
+    true
+  else 
+    false
+  end
 end
 
 def valid_phone_number?(phone)
